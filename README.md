@@ -2,9 +2,9 @@
 
 ## Database
 
-In the main root of application there is folder <a href="veterinary_clinic/database-configuration">database-configuration</a>. 
+In the main root of application there is folder <a href="database-configuration">database-configuration</a>. 
 This folder contains:
-- <a href="veterinary_clinic/database-configuration/database-screenshot.png">screenshot</a> of database model 
+- <a href="database-configuration/database-screenshot.png">screenshot</a> of database model 
 - .m2 file extension which include editable model. Use TOAD data modeler for that. 
 - script for creating whole database with relations. There is also part responsible for inserting data into tables which might be removed as needed. 
 
