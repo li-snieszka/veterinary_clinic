@@ -1,3 +1,21 @@
+# Veterinary Clinic Application
+
+## Database
+
+In the main root of application there is folder <a href="veterinary_clinic/database-configuration">database-configuration</a>. 
+This folder contains:
+- <a href="veterinary_clinic/database-configuration/database-screenshot.png">screenshot</a> of database model 
+- .m2 file extension which include editable model. Use TOAD data modeler for that. 
+- script for creating whole database with relations. There is also part responsible for inserting data into tables which might be removed as needed. 
+
+To the proper working of app you have to setup config file app_local.php. 
+If you want to run app local with xampp basic settings for that file are: 
+- 'host' => 'localhost',
+- 'username' => 'root',
+- 'password' => '',
+- 'database' => 'veterinary_clinic',
+
+
 # CakePHP Application Skeleton
 
 ![Build Status](https://github.com/cakephp/app/actions/workflows/ci.yml/badge.svg?branch=master)
