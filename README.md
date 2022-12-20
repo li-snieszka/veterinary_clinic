@@ -8,13 +8,14 @@ This folder contains:
 - .m2 file extension which include editable model. Use TOAD data modeler for that. 
 - script for creating whole database with relations. There is also part responsible for inserting data into tables which might be removed as needed. 
 
-To the proper working of app you have to setup config file app_local.php. 
+To the proper working of app you have to setup config file app_local.php. <br>
 If you want to run app local with xampp basic settings for that file are: 
-- 'host' => 'localhost',
-- 'username' => 'root',
-- 'password' => '',
-- 'database' => 'veterinary_clinic',
-
+```bash
+'host' => 'localhost',
+'username' => 'root',
+'password' => '',
+'database' => 'veterinary_clinic',
+```
 
 # CakePHP Application Skeleton
 
