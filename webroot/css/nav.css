@@ -1,0 +1,47 @@
+.nav-con {
+    padding: 0 2.5rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    font-family: "Montserrat";
+    font-weight: 400;
+  }
+
+  .nav-item {
+    padding: 0 0.1rem;
+  }
+
+  .nav-bar {
+    padding: 0 4.5rem;
+  }
+
+  .underline-item {
+    position: relative;
+    color: #18bc9c;
+    text-decoration: none;
+  }
+  
+  .underline-item:hover {
+    color: #18bc9c;
+  }
+  
+  .underline-item::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #18bc9c;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  
+  .underline-item:hover::before {
+    transform: scaleX(1);
+  }
+  
