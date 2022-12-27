@@ -77,8 +77,8 @@ CREATE TABLE specializations (
 ALTER TABLE pets ADD FOREIGN KEY (id_client) REFERENCES clients (id_client) ON DELETE CASCADE;
 ALTER TABLE pets ADD FOREIGN KEY (id_genre) REFERENCES genres (id_genre) ON DELETE CASCADE;
 ALTER TABLE services ADD FOREIGN KEY (id_pet) REFERENCES pets (id_pet) ON DELETE CASCADE;
-ALTER TABLE services ADD FOREIGN KEY (id_type) REFERENCES doctors (id_doctor) ON DELETE CASCADE;
-ALTER TABLE services ADD FOREIGN KEY (id_doctor) REFERENCES pets (id_pet) ON DELETE CASCADE;
+ALTER TABLE services ADD FOREIGN KEY (id_type) REFERENCES services_type (id_type) ON DELETE CASCADE;
+ALTER TABLE services ADD FOREIGN KEY (id_doctor) REFERENCES doctors (id_doctor) ON DELETE CASCADE;
 ALTER TABLE doctors ADD FOREIGN KEY (id_specialization) REFERENCES specializations (id_specialization) ON DELETE CASCADE;
 
 INSERT INTO `clients` (`id_client`, `name`, `surname`, `pesel`, `phone`) VALUES
